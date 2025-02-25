@@ -1,0 +1,12 @@
+
+@font-face {
+    font-family: "GoS";
+    src: url("/fonts/game_of_squids.otf");
+    /* font-weight: 400; */
+}
+
+@font-face {
+    font-family: "GoS";
+    src: url("/fonts/game_of_squids.ttf");
+    /* font-weight: 600; */
+}

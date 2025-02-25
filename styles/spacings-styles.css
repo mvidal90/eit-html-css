@@ -1,0 +1,45 @@
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+    /* font-size: 28px valido para customizar la unidad rem, idealmente debe quedar en 16px */
+}
+
+.text {
+    font-size: 2rem;
+    background-color: rgb(113, 181, 201);
+    margin: 0;
+    /*font-size: 1.5em; equivale a 22 pixeles por el .main-element*/
+   font-size: 1.5rem;  /*equivale a 16 pixeles por el elemento root (<html>)*/
+}
+
+.main-element {
+    background-color: rgb(90, 141, 90);
+    border: 0.5rem solid rgb(195, 195, 102);
+    display: flex;
+    /* SPACINGS */
+    padding: 2rem;
+    /* padding-top padding-right padding-bottom padding-left */
+    /* padding: top rigth bottom left */
+    /* padding: (top/bottom) (right/left) */
+    margin: 2rem;
+    /* margin-top margin-right margin-bottom margin-left */
+    /* margin: top rigth bottom left */
+    /* margin: (top/bottom) (right/left) */
+    /* font-size: 22px; */
+}
+
+.container {
+    background-color: rgb(214, 137, 109);
+    display: flex;
+    width: fit-content;
+}
+
+/* SIZES 
+    - px: Pixel
+    - Procentaje [%]: Va a tomar el valor proporcional del elemento padre.
+    - em: 1 unidad equivale a la cantidad de pixeles que vale el font-size del elemento padre 
+    - rem: 1 unidad equivale a la cantidad de pixeles que vale el font-size del elemento raiz (<html>) 
+*/
